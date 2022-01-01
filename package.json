@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Gyazo uploader made in TypeScript.",
   "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
     "prepare": "npm run build",
     "build": "tsc"
