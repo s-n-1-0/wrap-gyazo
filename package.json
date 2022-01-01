@@ -1,6 +1,6 @@
 {
   "name": "wrap-gyazo",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Gyazo uploader made in TypeScript.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
