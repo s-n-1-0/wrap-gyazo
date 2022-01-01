@@ -1,10 +1,8 @@
 {
     "compilerOptions": {
       "target": "es2017",
-      "module": "Esnext",
-      "moduleResolution":"Node",
+      "module": "commonjs",
       "allowJs": true,
-      "allowSyntheticDefaultImports": true,
       "declaration": true,
       "baseUrl": "./src/",
       "outDir": "dist/"
