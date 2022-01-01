@@ -50,7 +50,7 @@ const authUrl = gyazoAdmin.makeAuthorizeURL();
 //base64
 const uploadRes = await gyazoAdmin.uploadBase64(accessToken,base64);
 //buffer
-const uploadRes = uploadBuffer(accessToken,imageData,"png")
+const uploadRes = await uploadBuffer(accessToken,imageData,"png")
 ```
 *You can't upload from a browser, because of the CORS policy
 
