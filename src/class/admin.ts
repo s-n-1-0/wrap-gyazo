@@ -1,6 +1,6 @@
 import axios from "axios";
-import base64 from 'urlsafe-base64'
-import FormData from "form-data";
+import * as base64 from 'urlsafe-base64'
+import * as FormData from "form-data";
 import { UserParams, GyazoUser } from "./user";
 import { DEFAULT_POINT, UPLOAD_POINT } from "../api_point";
 export interface AdminParams extends UserParams {
