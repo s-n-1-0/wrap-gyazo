@@ -5,7 +5,7 @@ Gyazo API wrapper made in TypeScript.
 
 ## Installation
 `
-npm i gyazo-api
+npm i wrap-gyazo
 `
 
 ## Register an application with Gyazo.
@@ -61,7 +61,7 @@ import {readAsDataURL} from 'wrap-gyazo';
 
 const base64 = await readAsDataURL(file);
 ```
-### Reference
+### Thanks for the Reference
 + [Gyazo API Docs](https://gyazo.com/api/docs)
 + [gyazo-api](https://github.com/shokai/node-gyazo-api)
 
